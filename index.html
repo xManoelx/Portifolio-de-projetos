@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/profile.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <!-- Apresentação -->
+    <div class="presentation">
+        <div class="container">
+            <div class="profile-photo">
+                <img src="assets/profile/profile-picture.png" alt="">
+            </div>
+            <h1 class="profile-name">Manoel Antonio</h1>
+            <p class="profile-description">
+                Desenvolvedor Front-end e Python.<br>
+                Estudante de Análise e Desenvolvimento de Sistemas.<br>
+                Especializado em desenvolvimento web moderno e automação.
+            </p>
+        </div>
+    </div>
+
+    <!-- Projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2 class="section-title">Projetos</h2>
+            
+            <!-- Abas -->
+            <div class="tabs-container">
+                <button class="tab-button active" onclick="showTab('frontend')">Front-end</button>
+                <button class="tab-button" onclick="showTab('python')">Python</button>
+            </div>
+
+            <!-- Conteúdo Front-end -->
+            <div id="frontend" class="tab-content active">
+                <div class="projects-grid">
+                    <!-- ----------------------------------------------------------------------- -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/projects-fullstack/technews.png" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Tech News</h3>
+                            <p class="project-description">
+                                Home page de um portal de notícias sobre o mundo da tecnologia
+                            </p>
+                            <p>(PC)</p>
+                        </div>
+                    </div>
+                    <!-- ----------------------------------------------------------------------- -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/projects-fullstack/festive.png" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Festive</h3>
+                            <p class="project-description">
+                                Formulário de convite para eventos especiais
+                            </p>
+                            <p>(PC)</p>
+                        </div>
+                    </div>
+                    <!-- ----------------------------------------------------------------------- -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/projects-fullstack/zingen.png" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Landing page</h3>
+                            <p class="project-description">
+                                Landing page de um aplicativo de karaokê
+                            </p>
+                            <p>(PC e mobile)</p>
+                        </div>
+                    </div>
+                    <!-- ----------------------------------------------------------------------- -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/projects-fullstack/travelgram.png" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Travelgram</h3>
+                            <p class="project-description">
+                                Perfil de viagens para quem quer compartilhar suas experiências com o mundo
+                            </p>
+                            <p>(PC e mobile)</p>
+                        </div>
+                    </div>
+                    <!-- ----------------------------------------------------------------------- -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/projects-fullstack/usesnitap.png" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce de venda de patins</h3>
+                            <p class="project-description">
+                                E-commerce para a venda de patins 
+                            </p>
+                            <p>(PC e mobile)</p>
+                        </div>
+                    </div>
+                    <!-- ----------------------------------------------------------------------- -->
+                </div>
+            </div>
+
+            <!-- Conteúdo Python -->
+            <div id="python" class="tab-content">
+                <div class="projects-grid">
+                    <!-- ----------------------------------------------------------------------- -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/projects-python/python.png" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Lista de tarefas</h3>
+                            <p class="project-description">
+                                Lista de tarefas onde pode adicionar, remover, alterar e completar tarefas!
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ----------------------------------------------------------------------- -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/projects-python/python.png" alt="">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Lista telefônica</h3>
+                            <p class="project-description">
+                                Lista telefônica onde pode adicionar, remover, alterar e favoritar contatos!
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ----------------------------------------------------------------------- -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <p class="contact-description">
+                Interessado em trabalhar comigo? Entre em contato através das redes sociais abaixo. 
+                Estou sempre aberto a novos projetos e colaborações.
+            </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/manoel-antonio-dutra-rodrigues-98b390202/" class="social-link" target="_blank">
+                    <div class="social-icon">📧</div>
+                    <span class="social-name">LinkedIn</span>
+                </a>
+                <a href="https://github.com/xManoelx" class="social-link" target="_blank">
+                    <div class="social-icon">💻</div>
+                    <span class="social-name">GitHub</span>
+                </a>
+                <a href="https://www.instagram.com/manoeldr_/" class="social-link" target="_blank">
+                    <div class="social-icon">📸</div>
+                    <span class="social-name">Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
