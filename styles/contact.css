@@ -1,14 +1,14 @@
 /* Seção de Contato */
 .contact {
     text-align: center;
-    border-top: 1px solid #e0e0e0;
+    border-top: 0.0625rem solid #e0e0e0;
 }
 
 .contact-description {
     font-size: 1.2rem;
     color: #666;
-    margin-bottom: 40px;
-    max-width: 600px;
+    margin-bottom: 2.5rem;
+    max-width: 37.5rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -16,7 +16,7 @@
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 1.875rem;
     flex-wrap: wrap;
 }
 
@@ -30,33 +30,33 @@
 }
 
 .social-link:hover {
-    transform: translateY(-3px);
+    transform: translateY(-0.1875rem);
 }
 
 .social-icon {
-    width: 60px;
-    height: 60px;
-    border: 2px solid #000;
+    width: 3.75rem;
+    height: 3.75rem;
+    border: 0.125rem solid #007bff;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
     background: #fff;
     transition: all 0.3s ease;
     overflow: hidden;
 }
 
 .social-icon img {
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     object-fit: contain;
     transition: filter 0.3s ease;
 }
 
 .social-link:hover .social-icon {
-    background: #000;
+    background: #007bff;
     color: #fff;
 }
 
@@ -65,24 +65,24 @@
 }
 
 .social-name {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
 }
 
 /* Responsive para Contato */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     .social-links {
-        gap: 20px;
+        gap: 1.25rem;
     }
 
     .social-icon {
-        width: 50px;
-        height: 50px;
-        font-size: 20px;
+        width: 3.125rem;
+        height: 3.125rem;
+        font-size: 1.25rem;
     }
 
     .social-icon img {
-        width: 24px;
-        height: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }

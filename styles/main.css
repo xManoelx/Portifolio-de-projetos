@@ -13,35 +13,35 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
 /* Seções gerais */
 section {
-    padding: 60px 20px;
+    padding: 3.75rem 1.25rem;
 }
 
 .section-title {
     font-size: 2.5rem;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 /* Responsive geral */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     .section-title {
         font-size: 2rem;
     }
 
     section {
-        padding: 40px 20px;
+        padding: 2.5rem 1.25rem;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
     .section-title {
         font-size: 1.6rem;
     }
