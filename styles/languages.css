@@ -1,0 +1,67 @@
+/* Seção de Linguagens */
+.languages {
+    border-bottom: 0.0625rem solid #e0e0e0;
+}
+
+.languages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    gap: 1rem;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.language-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 0.125rem solid #e0e0e0;
+    border-radius: 0.5rem;
+    background: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    min-height: 3rem;
+}
+
+.language-card:hover {
+    border-color: #007bff;
+    transform: translateY(-0.25rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 123, 255, 0.1);
+}
+
+.language-name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}
+
+/* Responsive para Linguagens */
+@media (max-width: 48rem) {
+    .languages-grid {
+        grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+        gap: 0.75rem;
+    }
+
+    .language-card {
+        padding: 0.75rem;
+        min-height: 2.5rem;
+    }
+}
+
+@media (max-width: 30rem) {
+    .languages-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+    }
+
+    .language-card {
+        padding: 0.75rem 0.5rem;
+        min-height: 2.25rem;
+    }
+
+    .language-name {
+        font-size: 0.8rem;
+    }
+}
